@@ -19,6 +19,31 @@ Expo React Native app for selling PDF notes with a Firebase-backed catalog, admi
 3. Start Expo:
    `npm run start`
 
+## Deploy to Vercel (Web)
+
+This project is configured for static web deployment on Vercel using Expo export.
+
+1. Import the GitHub repository in Vercel.
+2. Vercel will use the included `vercel.json`:
+  - Build Command: `npm run build:web`
+  - Output Directory: `dist`
+3. Add these Environment Variables in Vercel Project Settings (if you want runtime overrides):
+  - `EXPO_PUBLIC_FIREBASE_API_KEY`
+  - `EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN`
+  - `EXPO_PUBLIC_FIREBASE_PROJECT_ID`
+  - `EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET`
+  - `EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID`
+  - `EXPO_PUBLIC_FIREBASE_APP_ID`
+4. Trigger deployment.
+
+For local verification of the production web build:
+
+```bash
+npm run build:web
+```
+
+The generated static site is in `dist/`.
+
 ## Backend setup
 
 1. Go to `functions/`

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "looks-maxxing-guide",
-    "slug": "looks-maxxing-guide",
+    "name": "Digital Notes Selling",
+    "slug": "digital-notes-selling",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyANm5eBMYUeLJ0tMG31pag6mECSuknKGP4",
+      "firebaseAuthDomain": "document-6b817.firebaseapp.com",
+      "firebaseProjectId": "document-6b817",
+      "firebaseStorageBucket": "document-6b817.firebasestorage.app",
+      "firebaseMessagingSenderId": "90984595757",
+      "firebaseAppId": "1:90984595757:web:f6ab0435eedce7c7a613a4",
+      "adminEmailAllowlist": [
+        "admin@gmail.com",
+        "admin@notesapp.com"
+      ],
+      "razorpayKeyId": "",
+      "paymentOrderEndpoint": "",
+      "paymentVerificationEndpoint": ""
     }
   }
 }

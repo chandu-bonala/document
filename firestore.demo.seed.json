@@ -1,0 +1,46 @@
+{
+  "admins": {
+    "demo-admin": {
+      "uid": "demo-admin",
+      "email": "admin@gmail.com",
+      "displayName": "Demo Admin",
+      "role": "admin",
+      "isDemo": true,
+      "createdAt": "2026-04-21T00:00:00.000Z"
+    }
+  },
+  "courses": {
+    "demo-course-1": {
+      "title": "Face Structure Blueprint",
+      "tagline": "Jawline, symmetry, and photo angles",
+      "description": "A practical course for daily looksmax routines.",
+      "subject": "Looksmaxxing",
+      "level": "Beginner",
+      "pageCount": 48,
+      "price": 499,
+      "fileUrl": "https://example.com/face-structure-blueprint.pdf",
+      "isPublished": true,
+      "previewPoints": [
+        "Daily grooming checklist",
+        "Lighting and camera setup"
+      ],
+      "createdAt": "2026-04-21T00:00:00.000Z"
+    }
+  },
+  "orders": {
+    "pay_demo_1": {
+      "courseId": "demo-course-1",
+      "courseTitle": "Face Structure Blueprint",
+      "userUid": "demo-learner-uid",
+      "userEmail": "learner@example.com",
+      "userName": "Demo Learner",
+      "paymentId": "pay_demo_1",
+      "orderId": "order_demo_1",
+      "status": "success",
+      "amount": 499,
+      "verificationMode": "demo",
+      "fileUrl": "https://example.com/face-structure-blueprint.pdf",
+      "createdAt": "2026-04-21T00:00:00.000Z"
+    }
+  }
+}
